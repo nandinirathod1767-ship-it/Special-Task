@@ -10,7 +10,6 @@ columns = joblib.load("columns.pkl")
 st.set_page_config(page_title="Life Expectancy Predictor", page_icon="🌍")
 
 st.title("🌍 Country Life Expectancy Prediction")
-
 st.write("Enter the details below:")
 
 gdp = st.number_input("GDP", value=10000.0)
